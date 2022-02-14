@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/コンテキストパス">
+	<!-- MySQL -->
+	<Resource
+		name="jdbc/MySQL"
+		auth="Container"
+		type="javax.sql.DataSource"
+		maxTotal="100"
+		maxIdle="20"
+		maxWaitMillis="-1"
+		username="keycloak"
+		password="-"
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/keycloak?useSSL=false&amp;characterEncoding=UTF-8"
+		validationQuery="SELECT 0" />
+</Context>
